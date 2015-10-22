@@ -78,6 +78,7 @@ class MyClass(GeneratedClass):
                 if tabletService.loadApplication(appName):
                     self.logger.info("Successfully set application: %s" % appName)
                     tabletService.showWebview()
+                    #tabletService.loadUrl("http://masakura.github.io/pepper-app/")
                     state = True
                 else:
                     self.logger.warning("Got tablet service, but failed to set application: %s" % appName)

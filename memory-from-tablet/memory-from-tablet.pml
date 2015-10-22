@@ -7,6 +7,8 @@
     <Dialogs />
     <Resources>
         <File name="index" src="html/index.html" />
+        <File name="index" src="html/index.js" />
+        <File name="index" src="html/index.js~" />
     </Resources>
     <Topics />
 </Package>
